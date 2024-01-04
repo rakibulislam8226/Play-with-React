@@ -11,9 +11,9 @@ export const Navbar = () => {
 
     return (
         <div className="w-full h-[96px] bg-white border-b">
-            <div className="lg:max-w-[1480px] max-w-[992px] justify-between items-center m-auto w-full h-full flex px-4">
+            <div className="lg:max-w-[1480px] max-w-[600px] justify-between items-center m-auto w-full h-full flex px-4">
 
-                <div className='text-3xl bg-gradient-to-r from-blue-500 to-green-200 p-3 rounded-xl'>
+                <div className='text-3xl'>
                     <h2 className="text-blue-700">LAND<span className="text-blue-400">ING</span></h2>
                 </div>
 
