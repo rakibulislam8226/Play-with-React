@@ -1,4 +1,5 @@
 import './App.css'
+import { Companies } from './Components/Companies'
 import { Hero } from './Components/Hero'
 import { Navbar } from './Components/Navbar'
 
@@ -10,6 +11,7 @@ function App() {
     <>
       <Navbar />
       <Hero />
+      <Companies />
     </>
   )
 }
