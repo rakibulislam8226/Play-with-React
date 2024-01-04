@@ -10,8 +10,8 @@ export const Navbar = () => {
     const handleToggle = () => setToggle(!toggle);
 
     return (
-        <div className="w-full h-[96px] bg-white border-b">
-            <div className="lg:max-w-[1480px] max-w-[600px] justify-between items-center m-auto w-full h-full flex px-4">
+        <div className="max-w-full h-[96px] bg-white border-b">
+            <div className="md:max-w-[1480px] max-w-[600px] justify-between items-center m-auto w-full h-full flex px-4">
 
                 <div className='text-3xl'>
                     <h2 className="text-blue-700">LAND<span className="text-blue-400">ING</span></h2>
@@ -28,11 +28,11 @@ export const Navbar = () => {
                 </div>
 
                 <div className='hidden lg:flex'>
-                    <button className='flex justify-between bg-transparent gap-3 px-6 items-center'>
+                    <button className='flex justify-between bg-transparent gap-3 px-6 items-center rounded-md hover:bg-gray-300'>
                         <img src={lock} alt="lock" className='' />
                         Login
                     </button>
-                    <button className="bg-[#20B486] text-white font-bold px-5 py-2 rounded-md">Sign up for Free</button>
+                    <button className="bg-[#20B486] text-white font-bold ml-1 px-5 py-2 rounded-md hover:bg-green-500">Sign up for Free</button>
                 </div>
 
                 <div className='lg:hidden'>
@@ -41,7 +41,7 @@ export const Navbar = () => {
 
             </div>
 
-            <div className={`${toggle ? "opacity-100" : "opacity-0"} absolute lg:hidden z-10 p-4 bg-white text-center px-8 w-full transition-opacity duration-300`}>
+            <div className={`${toggle ? "opacity-100" : "opacity-0"} absolute lg:hidden z-10 p-4 bg-white text-center w-full transition-opacity duration-300`}>
                 <ul className="font-sans text-md bg-slate-100 bg-transparent">
                     <li className='p-4 hover:bg-gray-200'>Home</li>
                     <li className='p-4 hover:bg-gray-200'>About</li>
