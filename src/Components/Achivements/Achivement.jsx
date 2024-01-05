@@ -1,4 +1,5 @@
 import ladyAchivement from '../../assets/achivement_img.png';
+import achivementLogo from "../../assets/achievement.png";
 import { achivements } from "../../data/Achivement";
 import { AchivementCard } from './AchivementCard';
 
@@ -20,7 +21,7 @@ export const Achivement = () => {
 
                     </div>
                 </div>
-                <img src={ladyAchivement} alt="achivement" className='max-w-80 h-[280px] justify-center m-auto bg-yellow-200 rounded-[50px]' />
+                <img src={achivementLogo} alt="achivement" className='order-last' />
 
             </div>
         </div>
