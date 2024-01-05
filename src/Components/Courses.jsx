@@ -3,7 +3,7 @@ import { Card } from './Card';
 import React from 'react';
 import Slider from "react-slick";
 
-import { courses } from "../data/Courses"
+import { courses } from "../data/Courses";
 
 
 export const Courses = () => {
