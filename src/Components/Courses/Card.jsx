@@ -1,4 +1,3 @@
-import blog1 from "../assets/blog-1.png";
 import { StarRating } from "./StarRating";
 
 
