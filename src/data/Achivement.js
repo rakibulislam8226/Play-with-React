@@ -28,4 +28,10 @@ export const achivements = [
         total: "1,00,000+",
         linkImg: { usertheme }
     },
+    {
+        id: 4,
+        title: 'User’s',
+        total: "1,00,000+",
+        linkImg: { usertheme }
+    },
 ];
