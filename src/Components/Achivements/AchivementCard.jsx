@@ -1,4 +1,4 @@
-import usertheme from "../assets/UsersThree.svg";
+import usertheme from "../../assets/UsersThree.svg";
 
 export const AchivementCard = ({ achivement }) => {
     return (

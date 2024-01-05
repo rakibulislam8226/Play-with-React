@@ -1,6 +1,6 @@
-import ladyAchivement from '../assets/achivement_img.png';
+import ladyAchivement from '../../assets/achivement_img.png';
+import { achivements } from "../../data/Achivement";
 import { AchivementCard } from './AchivementCard';
-import { achivements } from "../data/Achivement";
 
 
 export const Achivement = () => {
